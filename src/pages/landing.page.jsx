@@ -1,8 +1,15 @@
 import React from 'react'
+import NavigationBar from '../components/navbar'
+import HeroSection from '../components/herosection'
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <section>
+        <div className='bg-background'>
+            <NavigationBar />
+            <HeroSection/>
+        </div>
+    </section>
   )
 }
 
