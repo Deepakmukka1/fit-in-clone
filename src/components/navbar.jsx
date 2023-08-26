@@ -11,7 +11,7 @@ const NavigationBar = () => {
   ];
 
   return (
-    <nav className="w-full">
+    <nav className="w-full bg-background">
       <div className="items-center px-6 mx-auto lg:flex lg:px-12">
         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
           <a href="/">
