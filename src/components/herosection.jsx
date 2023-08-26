@@ -3,7 +3,7 @@ import { Button } from "./button";
 import Customers from "./customers";
 const HeroSection = () => {
   return (
-    <section className="grid lg:grid-cols-2 grid-cols-1 lg:text-left text-center pt-12 pb-24 items-center mx-auto xl:px-20 xl:gap-6 gap-8 bg-background max-w-screen-2xl">
+    <section className="grid lg:grid-cols-2 grid-cols-1 lg:text-left text-center pt-12 pb-24 items-center mx-auto xl:px-20 xl:gap-6 gap-8 bg-background w-full max-w-screen-2xl">
       <div className="flex flex-col mx-auto xl:px-14 px-10 xl:pb-5 items-center justify-center lg:gap-10 gap-8">
         <h1 className="text-[#333333] font-bold md:text-5xl text-4xl leading-none -tracking-wide">
           Being healthy or fit isn't a fad or a trend. It's a lifestyle.
