@@ -5,7 +5,7 @@ const NavigationBar = () => {
   const [state, setState] = useState(false);
   const navigation = [
     { title: "How it works", path: "#aboutme" },
-    { title: "Plans", path: "#skills" },
+    { title: "Plans", path: "#plans" },
     { title: "Testimonals", path: "#projects" },
     { title: "Pricing", path: "#experience" },
   ];

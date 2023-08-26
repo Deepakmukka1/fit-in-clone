@@ -5,7 +5,7 @@ import DescriptionImage2 from "../assets/step-img2.jpeg";
 import DescriptionImage3 from "../assets/step-img3.jpeg";
 import DescriptionImage4 from "../assets/step-img5.jpeg";
 const DetailsSection = () => {
-  return <section className="bg-white lg:p-20 px-4 py-20 flex flex-col h-auto lg:w-10/12 w-4/5 mx-auto" id="howto">
+  return <section className="bg-white lg:p-20 px-4 py-20 flex flex-col h-auto lg:w-10/12 w-[88%] mx-auto max-w-screen-xl" id="howto">
     <div>
         <h3 className="lg:text-xl text-sm uppercase font-medium">How it works</h3>
         <h1 className="lg:text-5xl text-3xl text-[#555555] font-bold mt-4">Your daily dose of fitness in 4 simple steps</h1>
