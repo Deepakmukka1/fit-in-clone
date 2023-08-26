@@ -3,6 +3,7 @@ import NavigationBar from '../components/navbar'
 import HeroSection from '../components/herosection'
 import DetailsSection from '../components/detailssection'
 import { PlansSection } from '../components/planssection'
+import TestimonialSection from '../components/testimonals'
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <HeroSection/>
             <DetailsSection/>
             <PlansSection/>
+            <TestimonialSection/>
         </div>
     </section>
   )
