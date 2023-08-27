@@ -1,8 +1,10 @@
-# React + Vite
+# ⛹️ Fit-in clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>### 🧑‍💻 Tech stack: React + Vite + Tailwind
 
-Currently, two official plugins are available:
+## Improvements
+1. Lazy load gallery and non important images
+2. Responsive for any device mobile/tablet/laptop/desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### 🚀 live: https://fit-in-clone.netlify.app/ 
