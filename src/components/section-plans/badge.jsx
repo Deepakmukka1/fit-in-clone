@@ -5,7 +5,7 @@ const Badge = ({ level }) => {
     case "Easy":
       return (
         <h2
-          className={`text-textprimary text-sm font-medium mr-2 px-2 py-1 rounded-full bg-[#69db7c]`}
+          className="text-textprimary text-sm font-medium mr-2 px-2 py-1 rounded-full bg-badgegreen"
         >
           {level}
         </h2>
@@ -13,7 +13,7 @@ const Badge = ({ level }) => {
     case "Medium":
       return (
         <h2
-          className={`text-textprimary text-sm font-medium mr-2 px-2 py-1 rounded-full bg-[#ffa94d]`}
+          className="text-textprimary text-sm font-medium mr-2 px-2 py-1 rounded-full bg-badgeorange"
         >
           {level}
         </h2>

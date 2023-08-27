@@ -53,10 +53,10 @@ const NavigationBar = () => {
               );
             })}
             <button
-              className="bg-[#343A40] text-white rounded-md px-4 py-2 font-medium hover:bg-[#495057] transition-all duration-3000"
+              className="bg-background-300 text-white rounded-md px-4 py-2 font-medium hover:bg-background-500 transition-all duration-3000"
               onClick={() => setNavClicked(!isNavClicked)}
             >
-              <a href="#contact"> Free trail </a>
+              <a href="#contact">Free trail</a>
             </button>
           </ul>
         </div>

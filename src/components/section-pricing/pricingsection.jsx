@@ -41,7 +41,7 @@ const PricingSection = () => {
     >
       <div>
         <h3 className="lg:text-xl text-sm uppercase font-medium">Pricing</h3>
-        <h1 className="lg:text-5xl text-3xl text-[#555555] font-bold mt-4">
+        <h1 className="lg:text-5xl text-3xl text-textprimary-100 font-bold mt-4">
           Fitness without breaking the bank
         </h1>
       </div>

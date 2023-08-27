@@ -17,7 +17,7 @@ const Customers = () => {
         <img src={Customer6} className='xl:w-12 xl:h-12 w-10 h-10 rounded-full -ml-5 border-gray-200 border-4'/>
         </div>
         <div>
-          <h5 className='font-semibold xl:text-lg text-sm text-textprimary'>10,000+ <span className='text-[#a5aaae]'>happy customers!</span></h5>
+          <h5 className='font-semibold xl:text-lg text-sm text-textprimary'>10,000+ <span className='text-textprimary-300'>happy customers!</span></h5>
         </div>
     </div>
   )

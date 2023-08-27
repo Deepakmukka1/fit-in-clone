@@ -8,7 +8,7 @@ import WorkoutGallery from "./workoutgallery";
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-background w-full mx-auto text-[#555555]" id="testimonials">
+    <section className="bg-background w-full mx-auto text-textprimary-100" id="testimonials">
         <div className="grid lg:grid-cols-2 bg-background">
       <div className="lg:p-20 p-8 flex flex-col justify-center items-center mt-10">
         <div>

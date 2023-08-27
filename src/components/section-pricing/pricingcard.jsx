@@ -12,10 +12,10 @@ const PricingCard = ({ details }) => {
     nonAvialableFeatures,
   } = details;
   return (
-    <div className="relative overflow-hidden sm:p-12 p-8 bg-background flex flex-col gap-4 justify-center items-center rounded-xl text-center w-full text-[#555555] ">
+    <div className="relative overflow-hidden sm:p-12 p-8 bg-background flex flex-col gap-4 justify-center items-center rounded-xl text-center w-full text-textprimary-100 ">
       <h3 className="uppercase">{planName}</h3>
       <div>
-        <h2 className="font-semibold text-[#222222] mb-4">
+        <h2 className="font-semibold text-textprimary-500 mb-4">
           {currency} <span className="sm:text-5xl text-4xl ">{cost}</span>{" "}
           <span className="sm:text-2xl text-xl font-normal">/month</span>
         </h2>
@@ -25,7 +25,7 @@ const PricingCard = ({ details }) => {
         </h3>
       </div>
       <div className="w-full">
-        <ul className="flex flex-col gap-1 mt-8 mb-4 text-base font-normal text-[#555555] text-left">
+        <ul className="flex flex-col gap-1 mt-8 mb-4 text-base font-normal text-textprimary-100 text-left">
           {avialableFeatures.map((feature, index) => {
             return (
               <li
@@ -58,7 +58,7 @@ const PricingCard = ({ details }) => {
 
       {planName === "Pro" ? <Ribbon /> : ""}
 
-      <button className="bg-[#343A40] text-white rounded-md px-5 py-3 lg:px-6 lg:py-2 font-normal lg:text-xl text-base hover:bg-[#495057] transition-all duration-3000 tracking-wider mt-2">
+      <button className="bg-background-300 text-white rounded-md px-5 py-3 lg:px-6 lg:py-2 font-normal lg:text-xl text-base hover:bg-background-500 transition-all duration-3000 tracking-wider mt-2">
         <a href="#details">Start Getting Fit</a>
       </button>
     </div>
