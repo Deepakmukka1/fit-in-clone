@@ -7,4 +7,4 @@
 2. Responsive for any device mobile/tablet/laptop/desktop
 
 
-### 🚀 live: https://fit-in-clone.netlify.app/ 
+### 🚀 live: https://fit-in-clone-mukkadeepak.netlify.app/
