@@ -1,10 +1,10 @@
 import React from 'react'
-import Customer1 from '../assets/c1.jpg'
-import Customer2 from '../assets/c2.jpg'
-import Customer3 from '../assets/c3.jpg'
-import Customer4 from '../assets/c4.jpg'
-import Customer5 from '../assets/c5.jpg'
-import Customer6 from '../assets/c6.jpg'
+import Customer1 from '../../assets/c1.jpg'
+import Customer2 from '../../assets/c2.jpg'
+import Customer3 from '../../assets/c3.jpg'
+import Customer4 from '../../assets/c4.jpg'
+import Customer5 from '../../assets/c5.jpg'
+import Customer6 from '../../assets/c6.jpg'
 const Customers = () => {
   return (
     <div className='flex sm:flex-row flex-col lg:justify-normal justify-center gap-4 items-center w-full mt-4 mb-4'>

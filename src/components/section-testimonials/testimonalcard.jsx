@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonialImage1 from "../assets/testimonial1.jpg";
+
 const TestimonialCard = ({testimonial, imageURL, authorName}) => {
   return (
     <div className="flex flex-col gap-4">

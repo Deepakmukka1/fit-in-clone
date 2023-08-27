@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import HeroImage from "../assets/hero4.jpg";
-import { Button } from "./button";
+import HeroImage from "../../assets/hero4.jpg";
+
 import Customers from "./customers";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 const HeroSection = () => {

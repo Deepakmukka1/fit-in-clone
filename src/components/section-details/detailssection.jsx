@@ -1,9 +1,9 @@
 import React from "react";
 import DetailsCard from "./detailscard";
-import DescriptionImage1 from "../assets/step-img1.jpeg";
-import DescriptionImage2 from "../assets/step-img2.jpeg";
-import DescriptionImage3 from "../assets/step-img3.jpeg";
-import DescriptionImage4 from "../assets/step-img5.jpeg";
+import DescriptionImage1 from "../../assets/step-img1.jpeg";
+import DescriptionImage2 from "../../assets/step-img2.jpeg";
+import DescriptionImage3 from "../../assets/step-img3.jpeg";
+import DescriptionImage4 from "../../assets/step-img5.jpeg";
 const DetailsSection = () => {
   return <section className="bg-white lg:p-20 px-12 py-20 flex flex-col h-auto lg:w-10/12 mx-auto max-w-screen-xl" id="howto">
     <div>

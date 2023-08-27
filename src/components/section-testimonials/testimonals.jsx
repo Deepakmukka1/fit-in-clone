@@ -1,9 +1,9 @@
 import React from "react";
 import TestimonialCard from "./testimonalcard";
-import TestimonialImage1 from "../assets/testimonial1.jpg";
-import TestimonialImage2 from "../assets/testimonial2.jpg";
-import TestimonialImage3 from "../assets/c4.jpg";
-import TestimonialImage4 from "../assets/c2.jpg";
+import TestimonialImage1 from "../../assets/testimonial1.jpg";
+import TestimonialImage2 from "../../assets/testimonial2.jpg";
+import TestimonialImage3 from "../../assets/c4.jpg";
+import TestimonialImage4 from "../../assets/c2.jpg";
 import WorkoutGallery from "./workoutgallery";
 
 const TestimonialSection = () => {

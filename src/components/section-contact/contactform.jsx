@@ -1,5 +1,5 @@
 import React from "react";
-import Contact1 from "../assets/contact1.jpeg";
+import Contact1 from "../../assets/contact1.jpeg";
 const ContactForm = () => {
   return (
     <div className="grid lg:grid-cols-3 grid-cols-1 bg-gradient-to-r from-[#9b9ea1] to-[#dee2e6]  max-w-screen-xl mx-auto w-4/5 lg:w-full text-[#555555] rounded-xl">

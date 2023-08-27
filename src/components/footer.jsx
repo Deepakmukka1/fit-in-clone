@@ -1,11 +1,11 @@
-import React from "react";
+
 import Logo from '../assets/logo3.png'
 // import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
-    <section className="mx-auto max-w-screen-xl grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-16 mt-10 px-12 items-start place-items-center pb-20">
+    <footer className="mx-auto max-w-screen-xl grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-16 mt-10 px-12 items-start place-items-center pb-20">
       
       <div className="lg:order-3 order-1">
         <h3 className="text-[#555555] font-semibold text-sm">Account</h3>
@@ -69,7 +69,7 @@ const Footer = () => {
         <p className="text-sm">Express Avenue, 2nd Floor, Banglore, KA 610232</p>
         <p className="text-sm">9999932491 hello@fitin.com</p>
       </div>
-    </section>
+    </footer>
   );
 };
 
