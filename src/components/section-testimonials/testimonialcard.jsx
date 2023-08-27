@@ -5,6 +5,7 @@ const TestimonialCard = ({testimonial, imageURL, authorName}) => {
     <div className="flex flex-col gap-4">
       <div>
         <img
+          alt="testimonail customers"
           src={imageURL}
           className="w-16 h-16 rounded-full object-contain"
         />

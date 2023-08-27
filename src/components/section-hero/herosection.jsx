@@ -27,6 +27,7 @@ const HeroSection = () => {
       </div>
       <div className="flex justify-center text-center">
         <img
+        alt="yoga girl"
           src={HeroImage}
           className="rounded-2xl shadow-2xl w-11/12 h-11/12"
         />

@@ -43,7 +43,7 @@ const ContactForm = () => {
         </form>
       </div>
       <div className="-order-1 lg:order-1">
-        <img src={Contact1} className="object-cover w-full rounded-t-xl lg:rounded-r-xl h-96 lg:h-full" />
+        <img src={Contact1} className="object-cover w-full rounded-t-xl lg:rounded-r-xl h-96 lg:h-full" loading="lazy" alt="customer" />
       </div>
     </div>
   );

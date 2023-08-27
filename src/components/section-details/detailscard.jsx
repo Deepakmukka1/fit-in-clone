@@ -14,7 +14,7 @@ const DetailsCard = ({instructionCount, title, detailImageURL}) => {
         </p>
       </div>
       <div className="">
-        <img src={detailImageURL} className="rounded-xl object-cover shadow-2xl"/>
+        <img src={detailImageURL} className="rounded-xl object-cover shadow-2xl" loading="lazy" alt="workout details"/>
       </div>
     </div>
   );

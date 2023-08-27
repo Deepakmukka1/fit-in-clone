@@ -11,7 +11,7 @@ const PlansCard = ({title, imageURL, level}) => {
   return (
     <div className="flex flex-col border-1 rounded-2xl shadow-2xl hover:scale-[1.02] hover:-translate-y-6 transition-all duration-500 cursor-pointer w-5/6 sm:w-80">
       <div className="object-cover">
-        <img src={imageURL} className="rounded-tl-2xl rounded-tr-2xl" />
+        <img src={imageURL} className="rounded-tl-2xl rounded-tr-2xl" loading="lazy" alt="yoga girls"/>
       </div>
       <div className="flex flex-col gap-4 justify-start items-start sm:p-6 p-8 text-textprimary">
         <Badge level={level}/>

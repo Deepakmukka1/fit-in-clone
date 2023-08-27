@@ -34,6 +34,8 @@ const WorkoutGallery = () => {
       {galleryImages.map((imageSrc, ind) => {
         return (
           <img
+           loading="lazy"
+           alt="workout images"
             src={imageSrc}
             key={ind}
             className="cursor-pointer hover:scale-105 transition-all duration-100 hover:overflow-clip"
