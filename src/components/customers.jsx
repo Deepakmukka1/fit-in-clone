@@ -7,7 +7,7 @@ import Customer5 from '../assets/c5.jpg'
 import Customer6 from '../assets/c6.jpg'
 const Customers = () => {
   return (
-    <div className='flex flex-row lg:justify-normal justify-center gap-4 items-center w-full mt-4 mb-4'>
+    <div className='flex sm:flex-row flex-col lg:justify-normal justify-center gap-4 items-center w-full mt-4 mb-4'>
         <div className='flex'>
         <img src={Customer1} className='xl:w-12 xl:h-12 w-10 h-10 rounded-full'/>
         <img src={Customer2} className='xl:w-12 xl:h-12 w-10 h-10 rounded-full -ml-5 border-gray-200 border-4'/>
@@ -17,7 +17,7 @@ const Customers = () => {
         <img src={Customer6} className='xl:w-12 xl:h-12 w-10 h-10 rounded-full -ml-5 border-gray-200 border-4'/>
         </div>
         <div>
-          <h5 className='font-semibold xl:text-lg text-base text-textprimary'>10,000+ <span className='text-[#a5aaae]'>happy customers!</span></h5>
+          <h5 className='font-semibold xl:text-lg text-sm text-textprimary'>10,000+ <span className='text-[#a5aaae]'>happy customers!</span></h5>
         </div>
     </div>
   )

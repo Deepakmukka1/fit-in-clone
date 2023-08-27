@@ -7,7 +7,7 @@ const NavigationBar = () => {
     { title: "How it works", path: "#howto" },
     { title: "Plans", path: "#plans" },
     { title: "Testimonals", path: "#testimonials" },
-    { title: "Pricing", path: "#experience" },
+    { title: "Pricing", path: "#pricing" },
   ];
 
   return (

@@ -13,7 +13,7 @@ const PlansCard = ({title, imageURL, level}) => {
       <div className="object-cover">
         <img src={imageURL} className="rounded-tl-2xl rounded-tr-2xl" />
       </div>
-      <div className="flex flex-col gap-4 justify-start items-start sm:p-10 p-8 text-textprimary">
+      <div className="flex flex-col gap-4 justify-start items-start sm:p-6 p-8 text-textprimary">
         <Badge level={level}/>
         <h3 className="sm:text-2xl text-lg font-bold">{title}</h3>
         <ul className="w-full mt-2 text-sm sm:text-lg font-normal">
