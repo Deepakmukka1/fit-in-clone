@@ -10,7 +10,7 @@ const TestimonialCard = ({testimonial, imageURL, authorName}) => {
         />
       </div>
       <div>
-        <p className="text-ellipsis text-lg">
+        <p className="text-ellipsis md:text-lg text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
           delectus est consectetur ipsa perspiciatis 
         </p>
