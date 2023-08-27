@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/logo3.png";
-import { Button } from "./button";
+
 const NavigationBar = () => {
   const [state, setState] = useState(false);
   const navigation = [
@@ -55,22 +55,24 @@ const NavigationBar = () => {
           </div>
         </div>
         <div
-          className={`flex-1 justify-center text-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
-            state ? "block" : "hidden"
+          className={`flex-1 justify-center text-base text-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
+            state ? "h-screen flex flex-col items-center" : "hidden h-auto"
           }`}
         >
-          <ul className="justify-center md:justify-end items-center space-y-4 lg:flex lg:space-x-6 lg:space-y-0">
+          <ul className={`justify-center md:justify-end items-center space-y-4 lg:flex lg:space-x-6 lg:space-y-0`}>
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
-                  className="text-textprimary font-medium pr-4 hover:text-gray-800 md:text-lg text-base transition-all tracking-wider"
+                  className="text-textprimary font-medium pr-4 hover:text-gray-800 md:text-lg transition-all tracking-wider"
                 >
                   <a href={item.path}>{item.title}</a>
                 </li>
               );
             })}
-            <Button text="Free trail" isPrimary={true}/>
+            <button className="bg-[#343A40] text-white rounded-md px-4 py-2 font-medium hover:bg-[#495057] transition-all duration-3000">
+              <a href="#contact"> Free trail </a>
+            </button>
           </ul>
         </div>
       </div>
