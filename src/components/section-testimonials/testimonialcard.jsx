@@ -1,6 +1,6 @@
 import React from "react";
 
-const TestimonialCard = ({testimonial, imageURL, authorName}) => {
+const TestimonialCard = ({testimonialText, imageURL, authorName}) => {
   return (
     <div className="flex flex-col gap-4">
       <div>
@@ -12,8 +12,7 @@ const TestimonialCard = ({testimonial, imageURL, authorName}) => {
       </div>
       <div>
         <p className="text-ellipsis md:text-lg text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-          delectus est consectetur ipsa perspiciatis 
+          {testimonialText}
         </p>
       </div>
       <div>

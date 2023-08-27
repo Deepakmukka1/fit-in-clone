@@ -46,7 +46,9 @@ const NavigationBar = () => {
                 <li
                   key={idx}
                   className="text-textprimary font-medium pr-4 hover:text-gray-800 md:text-lg transition-all tracking-wider"
-                  onClick={() => setNavClicked(!isNavClicked)}
+                  onClick={() => {
+                    if (isNavClicked) setNavClicked(!isNavClicked);
+                  }}
                 >
                   <a href={item.path}>{item.title}</a>
                 </li>
@@ -54,7 +56,9 @@ const NavigationBar = () => {
             })}
             <button
               className="bg-background-300 text-white rounded-md px-4 py-2 font-medium hover:bg-background-500 transition-all duration-3000"
-              onClick={() => setNavClicked(!isNavClicked)}
+              onClick={() => {
+                if (isNavClicked) setNavClicked(!isNavClicked);
+              }}
             >
               <a href="#contact">Free trail</a>
             </button>

@@ -49,7 +49,7 @@ const PricingSection = () => {
         <PricingCard details={filterData(pricingDetails, "Starter")} />
         <PricingCard details={filterData(pricingDetails, "Pro")} />
       </div>
-      <h2 className="text-lg text-center">
+      <h2 className="sm:text-lg text-center text-textprimary-100 text-sm">
         Prices include all applicable taxes. You can cancel anytime.
       </h2>
     </section>

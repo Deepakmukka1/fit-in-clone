@@ -40,7 +40,7 @@ const PlansSection = () => {
             {categories.map((category, index) => {
               return (
                 <li
-                  className="flex lg:justify-start justify-center gap-5 mt-3"
+                  className="flex justify-start gap-5 mt-3"
                   key={index}
                 >
                   <span className="">
