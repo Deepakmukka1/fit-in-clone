@@ -33,7 +33,7 @@ const PricingSection = () => {
       nonAvialableFeatures: [],
     },
   ]);
-  console.log(filterData(pricingDetails, "Starter"));
+
   return (
     <section
       className="flex flex-col gap-8 bg-white max-w-screen-xl mx-auto p-16 md:px-16 px-4"

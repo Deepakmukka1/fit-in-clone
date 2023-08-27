@@ -20,7 +20,7 @@ const HeroSection = () => {
             <a href="#contact">Start Getting Fit</a>
           </button>
           <button className="bg-[#ced4da] text-textprimary rounded-md px-5 py-2 lg:px-6 lg:py-3 font-normal lg:text-xl text-sm hover:bg-[#dee2e6] transition-all duration-3000 hover:border-gray-800 border-2 tracking-wider">
-            <a href="#howto">Learn More <FontAwesomeIcon icon={faArrowDown}/> </a>
+            <a href="#details">Learn More <FontAwesomeIcon icon={faArrowDown}/> </a>
           </button>
         </div>
         <Customers />

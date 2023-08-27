@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const NavigationBar = () => {
   const [isNavClicked, setNavClicked] = useState(false);
   const navigation = [
-    { title: "How it works", path: "#howto" },
+    { title: "How it works", path: "#details" },
     { title: "Plans", path: "#plans" },
     { title: "Testimonals", path: "#testimonials" },
     { title: "Pricing", path: "#pricing" },

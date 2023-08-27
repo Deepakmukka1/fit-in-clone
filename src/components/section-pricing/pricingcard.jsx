@@ -59,7 +59,7 @@ const PricingCard = ({ details }) => {
       {planName === "Pro" ? <Ribbon /> : ""}
 
       <button className="bg-[#343A40] text-white rounded-md px-5 py-3 lg:px-6 lg:py-2 font-normal lg:text-xl text-base hover:bg-[#495057] transition-all duration-3000 tracking-wider mt-2">
-        <a href="#howto">Start Getting Fit</a>
+        <a href="#details">Start Getting Fit</a>
       </button>
     </div>
   );
